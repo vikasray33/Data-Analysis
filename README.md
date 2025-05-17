@@ -72,7 +72,7 @@ Data Analysis/
 2. Open the Excel file inside excel_work to see basic summaries and pivot charts.
 3. Use the SQL queries in sql_queries with SSMS to explore key trends.
 4. Open the Python notebook in python_scripts to generate final plots.
-5. Read the GamingBooth_Report.pdf for detailed findings and recommendations.
+5. Read the Data Analysis Report.pdf for detailed findings and recommendations.
 
 ## Final Takeaways
 
