@@ -1,67 +1,81 @@
-Data Analysis Report
-1. Introduction:
-The purpose of this project is to determine the most suitable mall, day, and time to open a gaming booth using data collected from three different malls. The data includes information such as age group, gender, visit time, visit day, total bill, and other useful factors.
-This analysis will help in making a data-driven decision about when and where to open the booth for maximum visibility and customer engagement.
-________________________________________
-2. Objective
-We aim to answer the following questions using the dataset:
-1.	Which mall has the highest potential for opening a gaming booth?
-2.	What time of the day is most effective to attract customers?
-3.	Which day of the week brings the most engagement and sales?
-To do this, we used Excel for initial exploration, SQL for structured queries, and Python for deeper analysis and visualizations.
-________________________________________
-3. Dataset Description
-The dataset contains the following fields:
-•	Mall – The name of the mall
-•	Age Group – Age range of visitors (e.g., 10–20, 21–30)
-•	Gender – Male or Female
-•	Day of the Week – Monday through Sunday
-•	Time of the Day – Morning, Afternoon, or Evening
-•	Total Bill – Total amount spent by the customer
-•	Items Bought – Number of items purchased
-•	Product Category – Type of products purchased
-•	Payment Method – UPI, Card, Cash, etc.
-•	Is Returning Customer – Whether the customer is returning or new
-•	Visit Duration – How long the visit lasted (in minutes)
-________________________________________
-4. Tools Used
-•	Excel – For basic data cleaning, pivot tables, and summaries
-•	SQL (SSMS) – For grouping, filtering, and calculating totals and averages
-•	Python (Pandas, Seaborn, Matplotlib) – For data visualization and trend analysis
-________________________________________
-5. Analysis and Results:
-Mall Performance:
-After grouping total revenue by mall, it was clear that sarath city mall had the highest sales. It also had more returning customers compared to the others, which suggests customer loyalty and potential for regular business.
-Best Time of the Day:
-Analysis of visit timing showed that Evening hours had the most visits and also the highest average spend. People are more likely to shop or explore after school or work.
-Best Day of the Week:
-Saturday had the highest total revenue and footfall. These are the most active shopping days across all malls, making weekends ideal for a gaming booth setup.
-Age Group Spending:
-The 21–30 age group spent the most in total. This group also had more visits during the evening and on weekends, making them the ideal target audience.
-Returning vs New Customers:
-Returning customers contributed more to overall revenue. Retaining them and offering repeat incentives could be an effective strategy.
-Product Categories and Items Bought:
-Toys and Accessories were the top product categories. This suggests that customers are open to entertainment or lifestyle-based spending, which aligns well with a gaming booth offering.
-Payment Methods:
-Most people used Cash, while Card was used less frequently. This implies that digital payment options are essential.
-________________________________________
-6. SQL and Python Work Summary
-Using SQL, I grouped total sales, average bills, visit counts by day, time, age group, and customer type. Python was used to build visual charts like bar graphs, pie charts, and heatmaps. These helped in identifying trends and confirming patterns seen in SQL results.
-________________________________________
-7. Final Recommendations
-Based on all the analysis:
-•	Best Mall: Mall sarath city mall
-•	Best Time: Evening
-•	Best Day: Saturday
-•	Target Group: 21–30 age range, especially returning customers
-•	Payment Setup: Cash
-________________________________________
-8. Deliverables
-•	Cleaned Excel file with pivot analysis
-•	SQL query scripts used for grouping and filtering
-•	Python notebook with all visualizations
-•	This final report
-________________________________________
-9. Conclusion
-By combining Excel, SQL, and Python, we were able to understand the visitor behavior in each mall. Based on sales trends, visit patterns, and customer types, we identified the best location and timing for opening a gaming booth. The insights gathered from this project can help in setting up the booth where it has the highest chance of success.
+Gaming Booth Optimization – Data Analytics Project
 
+## Project Overview
+This project focuses on identifying the best mall, time of day, and day of the week to open a gaming booth. The goal is to maximize foot traffic and revenue by analyzing visitor behavior data using tools like Excel, SQL (SSMS), and Python.
+
+We worked with a dataset containing mall visitor details such as age group, visit timing, and total bill. By studying this data, we aimed to understand when and where potential customers are most active and spend the most.
+
+## Objectives
+- Explore visitor trends across three different malls
+- Identify which age groups are the most profitable
+- Analyze spending behavior by day of the week and time of day
+- Recommend the best mall, time, and day to set up the gaming booth
+
+## Tools Used
+
+ Tool         Purpose                                      
+ Excel       - Initial cleaning, pivot tables, charts      
+ SQL (SSMS)  - Data filtering, aggregation, pattern finding
+ Python      - Deeper analysis, visualization with pandas and seaborn
+
+## Dataset Description
+The dataset includes:
+- Mall – Mall name (3 malls)
+- Age Group – Visitor age ranges (e.g., 10–20, 21–30, etc.)
+- Day of the Week – Monday to Sunday
+- Time of the Day – Morning, Afternoon, Evening
+- Total Bill – Total amount spent by each visitor
+- Items Bought
+- Product Category
+- Payment Method
+- Returning Customer – Yes/No
+- Visit Duration
+
+## Workflow
+
+### Excel
+- Cleaned and organized the raw data
+- Created pivot tables to view trends by age, time, and mall
+- Plotted charts for better understanding
+
+### SQL (SSMS)
+- Ran queries to group and filter data by mall, time, and age
+- Compared average and total bills
+- Identified busiest days and most profitable age groups
+
+### Python
+- Loaded data using pandas
+- Visualized patterns using seaborn and matplotlib
+- Built charts like heatmaps and bar plots to support conclusions
+
+## Folder Structure
+
+GamingBoothOptimization/
+  src/
+    DashBoard/              Code and files for Excel pivot tables and charts
+    SQL_Analysis/            SQL queries used in SSMS
+    Python_Analysis/         Python notebook for data analysis
+
+  reports/
+    Data Analysis Report.pdf   Final report with analysis and insights
+
+  README.md                  Project summary and instructions
+
+## How to Run This Project
+
+1. Start with the cleaned_dataset.xlsx file in the docs folder.
+2. Open the Excel file inside excel_work to see basic summaries and pivot charts.
+3. Use the SQL queries in sql_queries with SSMS to explore key trends.
+4. Open the Python notebook in python_scripts to generate final plots.
+5. Read the GamingBooth_Report.pdf for detailed findings and recommendations.
+
+## Final Takeaways
+
+- Best Mall: sarath city mall had the highest overall spending and more returning visitors
+- Best Time: Evening hours showed the highest customer activity
+- Best Day: Saturday was the busiest and most profitable day
+- Target Age Group: 21–30-year-olds spent the most consistently
+
+This analysis gives a clear direction on when and where to launch the gaming booth for the best results.
+
+Created as part of a data analytics coursework project.
