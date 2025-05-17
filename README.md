@@ -50,13 +50,18 @@ The dataset includes:
 
 ## Folder Structure
 
-GamingBoothOptimization/
+Data Analysis/
+
   src/
+  
     DashBoard/              Code and files for Excel pivot tables and charts
+    
     SQL_Analysis/            SQL queries used in SSMS
+    
     Python_Analysis/         Python notebook for data analysis
 
   reports/
+  
     Data Analysis Report.pdf   Final report with analysis and insights
 
   README.md                  Project summary and instructions
